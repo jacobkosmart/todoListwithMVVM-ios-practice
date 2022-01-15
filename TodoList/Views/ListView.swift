@@ -16,23 +16,30 @@ struct ListView: View {
 	
 	// MARK: -  BODY
 	var body: some View {
-		// list loop
-		List {
-			ForEach(listViewModel.items) { item in
-				ListRowView(item: item)
-				// toggle 시 !isCompleted 가 되게 하는 logic
-					.onTapGesture {
-						withAnimation(.linear) {
-							listViewModel.updateItem(item: item)
-						}
+		ZStack {
+			if listViewModel.items.isEmpty {
+				NoItemsView()
+					.transition(AnyTransition.opacity.animation(.easeIn))
+			} else {
+				// list loop
+				List {
+					ForEach(listViewModel.items) { item in
+						ListRowView(item: item)
+						// toggle 시 !isCompleted 가 되게 하는 logic
+							.onTapGesture {
+								withAnimation(.linear) {
+									listViewModel.updateItem(item: item)
+								}
+							}
 					}
-			}
-			// delete list
-			.onDelete(perform:listViewModel.deleteItem)
-			// move list
-			.onMove(perform: listViewModel.moveItem)
-		}
-		.listStyle(PlainListStyle())
+					// delete list
+					.onDelete(perform:listViewModel.deleteItem)
+					// move list
+					.onMove(perform: listViewModel.moveItem)
+				}
+				.listStyle(PlainListStyle())
+			} //: LIST
+		} //: ZSTACK
 		.navigationTitle("Todo List 📝")
 		// trailing 에 ADD 버튼 을 클릭하면 AddView() 로 이동
 		.navigationBarItems(

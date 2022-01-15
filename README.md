@@ -73,25 +73,13 @@ struct ItemModel: Identifiable {
 
 ### 🔷 Check core codes in details
 
-### 🔷 User experience and animations
-
-```swift
-
-```
-
-### 🔶
-
-```swift
-
-```
-
-### 🔶
-
-```swift
-
-```
-
 ### 🔷 iPad, Landscape and Dark mode
+
+### 🔶
+
+```swift
+
+```
 
 ```swift
 

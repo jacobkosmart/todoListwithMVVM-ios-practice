@@ -15,6 +15,7 @@
 		819AD55527913802001B1017 /* TodoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819AD55427913802001B1017 /* TodoListApp.swift */; };
 		819AD55927913804001B1017 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 819AD55827913804001B1017 /* Assets.xcassets */; };
 		819AD55C27913804001B1017 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 819AD55B27913804001B1017 /* Preview Assets.xcassets */; };
+		81D3250027926B6F00355E54 /* NoItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D324FF27926B6F00355E54 /* NoItemsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		819AD55427913802001B1017 /* TodoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListApp.swift; sourceTree = "<group>"; };
 		819AD55827913804001B1017 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		819AD55B27913804001B1017 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		81D324FF27926B6F00355E54 /* NoItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoItemsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				8125466727913C3A00F4A7C6 /* ListView.swift */,
 				8125466B2791408800F4A7C6 /* AddView.swift */,
 				8125466927913E1E00F4A7C6 /* ListRowView.swift */,
+				81D324FF27926B6F00355E54 /* NoItemsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 				81778D3D2791826300ECB6DD /* ListViewModel.swift in Sources */,
 				819AD55527913802001B1017 /* TodoListApp.swift in Sources */,
 				8125466827913C3A00F4A7C6 /* ListView.swift in Sources */,
+				81D3250027926B6F00355E54 /* NoItemsView.swift in Sources */,
 				8125466A27913E1E00F4A7C6 /* ListRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
