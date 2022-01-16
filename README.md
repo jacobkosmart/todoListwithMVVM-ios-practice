@@ -1,4 +1,4 @@
-# 📔 TodoList-ios-practice
+# 📝 TodoList-ios-practice
 
 <!-- ! gif 스크린샷 -->
 
@@ -72,14 +72,6 @@ struct ItemModel: Identifiable {
 ```
 
 ### 🔷 Check core codes in details
-
-### 🔷 iPad, Landscape and Dark mode
-
-### 🔶
-
-```swift
-
-```
 
 ```swift
 
