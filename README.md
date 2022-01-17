@@ -73,16 +73,6 @@ struct ItemModel: Identifiable {
 
 ### 🔷 Check core codes in details
 
-```swift
-
-```
-
-### 🔷 Add and App Icon and Launch screen
-
-```swift
-
-```
-
 #### 👉 [1.Create a list of Todo items]()
 
 #### 👉 [2.Custom data model for Todo items]()
