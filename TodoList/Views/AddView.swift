@@ -46,7 +46,7 @@ struct AddView: View {
 	
 	// MARK: -  FUNCTION
 	
-	// saveButton Action: listViewmodel 에 add 하고 presentaionMode dismiss()
+	// saveButton Action: listViewmodel 에 add 하고 presentationMode dismiss()
 	func saveButtonPressed() {
 		if textIsAppropriate() {
 			listViewModel.addItem(title: textFieldText)

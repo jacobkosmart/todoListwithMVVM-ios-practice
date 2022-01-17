@@ -2,6 +2,8 @@
 
 <!-- ! gif 스크린샷 -->
 
+<img height="350" alt="스크린샷" src="https://user-images.githubusercontent.com/28912774/149730022-4731699a-334b-4130-b802-e5333f5d824f.gif">
+
 ## 📌 Main Features
 
 - To practice MVVM architecture
@@ -29,15 +31,17 @@
 `pod install`
  -->
 
-## 📌 Project Setup
-
--
+<!-- ## 📌 Project Setup -->
 
 ## 🔑 Check Point !
 
 ### 🔷 UI Structure
 
 <!-- ! ppt UI structure -->
+
+![슬라이드1](https://user-images.githubusercontent.com/28912774/149742481-33958aca-b014-4b3f-8d24-21e6048261e4.png)
+
+![슬라이드2](https://user-images.githubusercontent.com/28912774/149742420-72614d4b-bde3-4dc2-b4c7-2aad2d76c8d5.png)
 
 ### 🔷 Model
 
@@ -73,17 +77,19 @@ struct ItemModel: Identifiable {
 
 ### 🔷 Check core codes in details
 
-#### 👉 [1.Create a list of Todo items]()
+#### 👉 [1.Create a list of Todo items](https://github.com/jacobkosmart/todoListwithMVVM-ios-practice/blob/main/MD/1.CreateList.md)
 
-#### 👉 [2.Custom data model for Todo items]()
+#### 👉 [2.Custom data model for Todo items](https://github.com/jacobkosmart/todoListwithMVVM-ios-practice/blob/main/MD/2.DataModel.md)
 
-#### 👉 [3.Add a ViewModel with Environment Object]()
+#### 👉 [3.Add a ViewModel with Environment Object](https://github.com/jacobkosmart/todoListwithMVVM-ios-practice/blob/main/MD/3.CreateViewModel.md)
 
-#### 👉 [4.Save and persist data with UserDefaults]()
+#### 👉 [4.Save and persist data with UserDefaults](https://github.com/jacobkosmart/todoListwithMVVM-ios-practice/blob/main/MD/4.SaveDataWithUserDefaults.md)
 
-#### 👉 [5.User experience and animations]()
+#### 👉 [5.User experience and animations](https://github.com/jacobkosmart/todoListwithMVVM-ios-practice/blob/main/MD/5.UXandAnimation.md)
 
-#### 👉 [6.iPad, Landscape and Dark mode]()
+#### 👉 [6.iPad, Landscape and Dark mode](https://github.com/jacobkosmart/todoListwithMVVM-ios-practice/blob/main/MD/6.iPad_Landscape_Darkmode.md)
+
+#### 👉 [7.Add and App Icon and Launch screen](https://github.com/jacobkosmart/todoListwithMVVM-ios-practice/blob/main/MD/7.AppIcon_LaunchScreen.md)
 
 <!-- #### 👉 -->
 
@@ -117,3 +123,5 @@ struct ItemModel: Identifiable {
 <!-- 🔶 🔷 📌 🔑 👉 -->
 
 ## 🗃 Reference
+
+Build Todo List in SwiftUI with MVVM architecture - [https://www.youtube.com/watch?v=wEf1YS4vyW8&list=PLwvDm4VfkdpheGqemblOIA7v3oq0MS30i&index=1](https://www.youtube.com/watch?v=wEf1YS4vyW8&list=PLwvDm4VfkdpheGqemblOIA7v3oq0MS30i&index=1)
