@@ -39,9 +39,8 @@
 
 <!-- ! ppt UI structure -->
 
-![슬라이드1](https://user-images.githubusercontent.com/28912774/149742481-33958aca-b014-4b3f-8d24-21e6048261e4.png)
-
-![슬라이드2](https://user-images.githubusercontent.com/28912774/149742420-72614d4b-bde3-4dc2-b4c7-2aad2d76c8d5.png)
+![슬라이드1](https://user-images.githubusercontent.com/28912774/149744574-8738adbf-f2d4-4cb6-bdcc-7f3ac66e6512.jpeg)
+![슬라이드2](https://user-images.githubusercontent.com/28912774/149744593-09b01626-035f-4893-9046-d14c43e98bc0.jpeg)
 
 ### 🔷 Model
 
